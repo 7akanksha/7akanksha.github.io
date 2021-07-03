@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+
+
+
+    <style>
+        #left_bar {
+            width: 100px;
+            height: 100%;
+            padding: 0;
+            margin-top: 0;
+            background-color: rgba(244, 240, 236, 0.3);
+            margin-left: 5px;
+            box-shadow: 4px 4px 20px 8px rgba(150, 145, 145, 0.5);
+            float: left;
+        }
+
+        #main {
+            background-image: linear-gradient(to bottom, rgba(237, 237, 237, 0.7), rgba(237, 237, 237, 0));
+            margin-left: 105px;
+            width: 100%;
+            height: 100%;
+            padding: 50px;
+            font-family: sans-serif;
+
+        }
+
+        li {
+            height: 100px;
+            padding: 20px 12px;
+            list-style-type: none;
+            color: #b0b0b0;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+
+        }
+
+        .icons {
+            font-size: 30px;
+            color: lightslategrey";
+
+        }
+
+        .active {
+            background-color: rgb(188, 212, 230);
+            color: black;
+            border-left: 3px solid rgb(65, 105, 225);
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul id="left_bar">
+        <li style="border-bottom: 3px solid rgba(237,237,237,0.7);"><i class="bi bi-flower3 "
+                style="font-size:50px;color:black"></i>
+        </li>
+        <li><i class="bi bi-person icons"></i><br>
+            <b>students</b></li>
+        <li class="active"><i class="bi bi-journals icons "></i><br> Lesson Plan</li>
+        <li><i class="bi bi-gear icons"></i><br>Settings</li>
+
+    </ul>
+
+    <div style="height:100px"></div>
+    <div id="main">
+        <i class="bi bi-caret-left-fill icons" style="font-size: 15px;"></i>
+
+
+        <font style="font-size: 15px;color:lightslategrey"><b>Videos</b></font><br>
+        <input type=url
+            style="width:75%;padding:10px;margin:40px 120px;border:7px #b0b0b0; border-radius:15px;font-weight:bold;color:black;"
+            placeholder="Insert URL here"><br>
+        <div style="width:75%;text-align:center;color:black;margin:0 120px;"><b>or</b></div><br>
+        <div
+            style="width:150px;height:150px;padding:60px 55px;margin:0 0 0 120px;background-color:white;text-align:center;">
+            <b>upload</b></div>
+    </div>
+
+</body>
+
+</html>
